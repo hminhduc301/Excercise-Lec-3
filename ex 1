@@ -1,0 +1,10 @@
+package Lec3_excercise;
+import java.util.Scanner;
+public class b1 {
+    public static void main(String[] args) {
+        Scanner scanner =new Scanner(System.in);
+        System.out.print("Enter a interger number: ");
+        int x =scanner.nextInt();
+        System.out.println("The answer is "+x);
+    }
+}
