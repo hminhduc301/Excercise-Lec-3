@@ -1,0 +1,14 @@
+
+package Lec3_excercise;
+import java.util.Scanner;
+public class b5 {
+    public static void main(String[] args) {
+         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a boolean value (true/false): ");
+        boolean value = scanner.nextBoolean();
+
+        System.out.println("You entered: " + value);
+    }
+}
+    
