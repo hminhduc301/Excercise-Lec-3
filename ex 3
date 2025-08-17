@@ -1,0 +1,13 @@
+package Lec3_excercise;
+import java.util.Scanner;
+public class b3 {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter first number: ");
+        int x = keyboard.nextInt();
+        System.out.print("Enter second number: ");
+        int y = keyboard.nextInt();
+        int z = x+y;
+        System.out.println("Sum : "+ z);
+    }
+}
