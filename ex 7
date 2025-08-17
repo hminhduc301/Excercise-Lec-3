@@ -1,0 +1,11 @@
+package Lec3_excercise;
+import java.util.Scanner;
+public class b7 {
+    public static void main(String[] args) {
+    Scanner inputScanner = new Scanner(System.in);
+        System.out.print("Enter a sentence : ");
+        String Sentence = inputScanner.nextLine();
+        System.out.println(Sentence);
+        inputScanner.close();
+    }
+}
