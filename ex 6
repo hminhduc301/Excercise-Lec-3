@@ -1,0 +1,11 @@
+package Lec3_excercise;
+import java.util.Scanner;
+public class b6 {
+    public static void main(String[] args) {      
+         Scanner scanner = new Scanner(System.in);      
+        System.out.print("Enter your full name: ");      
+        String fullName = scanner.nextLine();       
+        System.out.println(fullName);
+        scanner.close();
+    }
+}
