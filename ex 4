@@ -1,0 +1,13 @@
+package Lec3_excercise;
+import java.util.Scanner;
+public class b4 {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter first float number: ");
+        float x =keyboard.nextFloat();
+        System.out.print("Enter second float number:");
+        float y =keyboard.nextFloat();
+        float z = (x+y)/2;
+        System.out.println("Average: "+ z);
+    }
+}
