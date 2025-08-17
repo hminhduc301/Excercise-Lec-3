@@ -1,0 +1,12 @@
+package Lec3_excercise;
+import java.util.Scanner;
+public class b2 {
+    public static void main(String[] args) {
+      Scanner keyboard = new Scanner(System.in);
+      System.out.print("Enter Name: ");
+      String name = keyboard.nextLine();
+      System.out.print("Enter age: ");
+      int age = keyboard.nextInt();
+      System.out.printf("Hello %s ,you are %d years old.\n",name,age);
+    }
+}
